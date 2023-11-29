@@ -1,0 +1,21 @@
+#ifndef LM35_INTERFACE_H
+#define LM35_INTERFACE_H
+
+/*
+Channels:
+
+ADC_CHANNEL0
+ADC_CHANNEL1
+ADC_CHANNEL2
+ADC_CHANNEL3
+ADC_CHANNEL4
+ADC_CHANNEL5
+ADC_CHANNEL6
+ADC_CHANNEL7
+
+*/
+
+u8 LM35_u8GetTemperature(u8 Copy_u8Channel);
+u8 LM35_u8GetTempWithInterrupt(u8 Copy_u8Channel);
+
+#endif
